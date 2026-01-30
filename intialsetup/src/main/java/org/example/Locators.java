@@ -33,6 +33,7 @@ public class Locators {
         driver.findElement(By.className("go-to-login-btn")).click();
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("input#inputUsername")).sendKeys("Asl");
+        Thread.sleep(2000);
         driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("rahulshettyacademy");
         driver.findElement(By.cssSelector("input#chkboxOne")).click();
         driver.findElement(By.className("signInBtn")).click();
